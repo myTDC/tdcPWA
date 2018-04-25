@@ -19,7 +19,7 @@
     </style>
     <script src="bower_components/webcomponentsjs/webcomponents-lite.js"></script>
     <script src="bower_components/web-animations-js/web-animations.min.js"></script>
-    <link rel="import" href="bower_components/platinum-sw/platinum-sw-elements.html">
+    <link rel="import" href="bower_components/note-app-elements/na-elements.html">
     <link rel="import" href="bower_components/polymerfire/firebase-app.html">
     <link rel="import" href="note-app.html">
   </head>
@@ -34,5 +34,16 @@
             default-cache-strategy="networkFirst">
         </platinum-sw-cache>
       </platinum-sw-register>
+
+      <firebase-app
+          name="tdc"
+          api-key="AIzaSyB-pPN50x6AXSapMFz6nw1QR0mVqe0UyQ4"
+          auth-domain="bemytdc.firebaseapp.com"
+          database-url="https://bemytdc.firebaseio.com">
+      </firebase-app>
+
+      <note-app>
+        
+      </note-app>
   </body>
 </html>

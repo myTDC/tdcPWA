@@ -1,0 +1,187 @@
+[debug] [2018-04-20T20:58:04.999Z] ----------------------------------------------------------------------
+[debug] [2018-04-20T20:58:05.001Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Aditya Mishra\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2018-04-20T20:58:05.002Z] CLI Version:   3.18.4
+[debug] [2018-04-20T20:58:05.002Z] Platform:      win32
+[debug] [2018-04-20T20:58:05.002Z] Node Version:  v9.11.1
+[debug] [2018-04-20T20:58:05.003Z] Time:          Sat Apr 21 2018 02:28:05 GMT+0530 (India Standard Time)
+[debug] [2018-04-20T20:58:05.003Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-04-20T20:58:05.017Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-04-20T20:58:05.018Z] > authorizing via signed-in user
+[debug] [2018-04-20T20:58:05.019Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-04-20T20:58:05.019Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ { refresh_token: '1/G00a_drxqISLVOpWW9YcHx-0x4zsJSDGms9CNnBbEZs',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Sat Apr 21 2018 02:28:05 GMT+0530 (India Standard Time)
+[debug] [2018-04-20T20:58:05.266Z] <<< HTTP RESPONSE 200
+[debug] [2018-04-20T20:58:05.266Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/bemytdc  
+  
+ Sat Apr 21 2018 02:28:05 GMT+0530 (India Standard Time)
+[debug] [2018-04-20T20:58:06.634Z] <<< HTTP RESPONSE 200
+[debug] [2018-04-20T20:58:06.635Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/bemytdc/tokens  
+  
+ Sat Apr 21 2018 02:28:06 GMT+0530 (India Standard Time)
+[debug] [2018-04-20T20:58:07.765Z] <<< HTTP RESPONSE 200
+[debug] [2018-04-20T20:58:07.765Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/bemytdc  
+  
+ Sat Apr 21 2018 02:28:07 GMT+0530 (India Standard Time)
+[debug] [2018-04-20T20:58:09.497Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'D:\Works.My\#001 FGC\TDC\TDC Web PWA'...
+[info] 
+[info] i  functions: Preparing to emulate functions.
+[debug] [2018-04-20T20:58:10.328Z] Fetching environment
+[debug] [2018-04-20T20:58:10.344Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/851786117643:getServerAppConfig  
+  
+ Sat Apr 21 2018 02:28:10 GMT+0530 (India Standard Time)
+[debug] [2018-04-20T20:58:10.345Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/851786117643/clients/_:getWebAppConfig  
+  
+ Sat Apr 21 2018 02:28:10 GMT+0530 (India Standard Time)
+[debug] [2018-04-20T20:58:11.267Z] <<< HTTP RESPONSE 200
+[debug] [2018-04-20T20:58:11.267Z] Starting @google-cloud/functions-emulator
+[debug] [2018-04-20T20:58:11.283Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+
+[debug] [2018-04-20T20:58:12.819Z] Parsing function triggers
+[debug] [2018-04-22T22:56:45.178Z] ----------------------------------------------------------------------
+[debug] [2018-04-22T22:56:45.193Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Aditya Mishra\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2018-04-22T22:56:45.193Z] CLI Version:   3.18.4
+[debug] [2018-04-22T22:56:45.193Z] Platform:      win32
+[debug] [2018-04-22T22:56:45.193Z] Node Version:  v9.11.1
+[debug] [2018-04-22T22:56:45.193Z] Time:          Mon Apr 23 2018 04:26:45 GMT+0530 (India Standard Time)
+[debug] [2018-04-22T22:56:45.193Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-04-22T22:56:45.231Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-04-22T22:56:45.231Z] > authorizing via signed-in user
+[debug] [2018-04-22T22:56:45.231Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-04-22T22:56:45.231Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ { refresh_token: '1/G00a_drxqISLVOpWW9YcHx-0x4zsJSDGms9CNnBbEZs',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Mon Apr 23 2018 04:26:45 GMT+0530 (India Standard Time)
+[debug] [2018-04-22T22:56:45.494Z] <<< HTTP RESPONSE 200
+[debug] [2018-04-22T22:56:45.494Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/bemytdc  
+  
+ Mon Apr 23 2018 04:26:45 GMT+0530 (India Standard Time)
+[debug] [2018-04-22T22:56:46.762Z] <<< HTTP RESPONSE 200
+[debug] [2018-04-22T22:56:46.762Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/bemytdc/tokens  
+  
+ Mon Apr 23 2018 04:26:46 GMT+0530 (India Standard Time)
+[debug] [2018-04-22T22:56:47.748Z] <<< HTTP RESPONSE 200
+[debug] [2018-04-22T22:56:47.748Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/bemytdc  
+  
+ Mon Apr 23 2018 04:26:47 GMT+0530 (India Standard Time)
+[debug] [2018-04-22T22:56:49.418Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'D:\Works.My\#001 FGC\TDC\TDC Web PWA'...
+[info] 
+[info] i  functions: Preparing to emulate functions.
+[debug] [2018-04-22T22:56:50.219Z] Fetching environment
+[debug] [2018-04-22T22:56:50.219Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/851786117643:getServerAppConfig  
+  
+ Mon Apr 23 2018 04:26:50 GMT+0530 (India Standard Time)
+[debug] [2018-04-22T22:56:50.219Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/851786117643/clients/_:getWebAppConfig  
+  
+ Mon Apr 23 2018 04:26:50 GMT+0530 (India Standard Time)
+[debug] [2018-04-22T22:56:51.751Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+
+[debug] [2018-04-22T22:56:51.954Z] <<< HTTP RESPONSE 200
+[debug] [2018-04-22T22:56:51.954Z] Starting @google-cloud/functions-emulator
+[debug] [2018-04-22T22:56:53.556Z] Parsing function triggers
+[debug] [2018-04-22T23:11:49.964Z] ----------------------------------------------------------------------
+[debug] [2018-04-22T23:11:49.967Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Aditya Mishra\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2018-04-22T23:11:49.967Z] CLI Version:   3.18.4
+[debug] [2018-04-22T23:11:49.967Z] Platform:      win32
+[debug] [2018-04-22T23:11:49.967Z] Node Version:  v9.11.1
+[debug] [2018-04-22T23:11:49.968Z] Time:          Mon Apr 23 2018 04:41:49 GMT+0530 (India Standard Time)
+[debug] [2018-04-22T23:11:49.968Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-04-22T23:11:49.977Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-04-22T23:11:49.977Z] > authorizing via signed-in user
+[debug] [2018-04-22T23:11:49.979Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/bemytdc  
+  
+ Mon Apr 23 2018 04:41:49 GMT+0530 (India Standard Time)
+[debug] [2018-04-22T23:11:51.304Z] <<< HTTP RESPONSE 200
+[debug] [2018-04-22T23:11:51.304Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/bemytdc/tokens  
+  
+ Mon Apr 23 2018 04:41:51 GMT+0530 (India Standard Time)
+[debug] [2018-04-22T23:11:52.297Z] <<< HTTP RESPONSE 200
+[debug] [2018-04-22T23:11:52.297Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/bemytdc  
+  
+ Mon Apr 23 2018 04:41:52 GMT+0530 (India Standard Time)
+[debug] [2018-04-22T23:11:53.872Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'D:\Works.My\#001 FGC\TDC\TDC Web PWA'...
+[info] 
+[info] i  functions: Preparing to emulate functions.
+[debug] [2018-04-22T23:11:54.440Z] Fetching environment
+[debug] [2018-04-22T23:11:54.443Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/851786117643:getServerAppConfig  
+  
+ Mon Apr 23 2018 04:41:54 GMT+0530 (India Standard Time)
+[debug] [2018-04-22T23:11:54.443Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/851786117643/clients/_:getWebAppConfig  
+  
+ Mon Apr 23 2018 04:41:54 GMT+0530 (India Standard Time)
+[debug] [2018-04-22T23:11:55.152Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+
+[debug] [2018-04-22T23:11:55.933Z] <<< HTTP RESPONSE 200
+[debug] [2018-04-22T23:11:55.933Z] Starting @google-cloud/functions-emulator
+[debug] [2018-04-22T23:11:57.482Z] Parsing function triggers
+[debug] [2018-04-24T04:45:30.631Z] ----------------------------------------------------------------------
+[debug] [2018-04-24T04:45:30.631Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Aditya Mishra\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2018-04-24T04:45:30.631Z] CLI Version:   3.18.4
+[debug] [2018-04-24T04:45:30.631Z] Platform:      win32
+[debug] [2018-04-24T04:45:30.631Z] Node Version:  v9.11.1
+[debug] [2018-04-24T04:45:30.631Z] Time:          Tue Apr 24 2018 10:15:30 GMT+0530 (India Standard Time)
+[debug] [2018-04-24T04:45:30.631Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-04-24T04:45:30.646Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-04-24T04:45:30.646Z] > authorizing via signed-in user
+[debug] [2018-04-24T04:45:30.646Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-04-24T04:45:30.646Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ { refresh_token: '1/G00a_drxqISLVOpWW9YcHx-0x4zsJSDGms9CNnBbEZs',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Tue Apr 24 2018 10:15:30 GMT+0530 (India Standard Time)
+[debug] [2018-04-24T04:45:30.961Z] <<< HTTP RESPONSE 200
+[debug] [2018-04-24T04:45:30.977Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/bemytdc  
+  
+ Tue Apr 24 2018 10:15:30 GMT+0530 (India Standard Time)
+[debug] [2018-04-24T04:45:32.267Z] <<< HTTP RESPONSE 200
+[debug] [2018-04-24T04:45:32.267Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/bemytdc/tokens  
+  
+ Tue Apr 24 2018 10:15:32 GMT+0530 (India Standard Time)
+[debug] [2018-04-24T04:45:33.414Z] <<< HTTP RESPONSE 200
+[debug] [2018-04-24T04:45:33.415Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/bemytdc  
+  
+ Tue Apr 24 2018 10:15:33 GMT+0530 (India Standard Time)
+[debug] [2018-04-24T04:45:35.136Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'D:\Works.My\#001 FGC\TDC\TDC Web PWA'...
+[info] 
+[info] i  functions: Preparing to emulate functions.
+[debug] [2018-04-24T04:45:35.868Z] Fetching environment
+[debug] [2018-04-24T04:45:35.868Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/851786117643:getServerAppConfig  
+  
+ Tue Apr 24 2018 10:15:35 GMT+0530 (India Standard Time)
+[debug] [2018-04-24T04:45:35.868Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/851786117643/clients/_:getWebAppConfig  
+  
+ Tue Apr 24 2018 10:15:35 GMT+0530 (India Standard Time)
+[debug] [2018-04-24T04:45:36.825Z] <<< HTTP RESPONSE 200
+[debug] [2018-04-24T04:45:36.825Z] Starting @google-cloud/functions-emulator
+[debug] [2018-04-24T04:45:36.872Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+
+[debug] [2018-04-24T04:45:38.434Z] Parsing function triggers
